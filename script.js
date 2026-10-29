@@ -87,7 +87,7 @@ const LEAD_ENDPOINT = 'https://lead-relay.leestygpt.workers.dev/lead/RDD8TZ75HK'
     });
   }, { threshold: 0.15, rootMargin: '0px 0px -6% 0px' });
   $$('[data-r], [data-lines], #blocks').forEach(el => io.observe(el));
-  if (reduce) $('[data-r], [data-lines], #blocks').forEach(el => el.classList.add('in'));
+  if (reduce) $$('[data-r], [data-lines], #blocks').forEach(el => el.classList.add('in'));
   // the arch has its own clip-path, so it is revealed by its panel
   new IntersectionObserver((es, o) => {
     if (es[0].isIntersecting) { arch.classList.add('in'); o.disconnect(); }
