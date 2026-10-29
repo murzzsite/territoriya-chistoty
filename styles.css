@@ -315,7 +315,7 @@ html.js .hero [data-r] { transition-delay: calc(var(--d, 0ms) + 650ms); }
 /* ---------- footer ---------- */
 .foot { background: var(--soft); padding: clamp(40px, 5vw, 72px) var(--m) 28px; }
 .blocks { display: flex; gap: 4px; align-items: flex-end; height: min(34svh, 300px); min-height: 150px; }
-.blk { flex: 1 1 0; min-width: 0; display: grid; place-items: center; font-weight: 700; letter-spacing: -0.04em; font-size: var(--step-display); line-height: 1; height: 0; color: var(--soft); transition: height 1s var(--ease); transition-delay: calc(var(--i) * 70ms); overflow: hidden; }
+.blk { flex: 1 1 0; min-width: 0; display: grid; place-items: center; font-weight: 700; letter-spacing: -0.04em; font-size: var(--step-display); line-height: 1; height: 14%; color: var(--soft); transition: height 1s var(--ease); transition-delay: calc(var(--i) * 70ms); overflow: hidden; }
 .blocks.in .blk { height: var(--h); }
 html:not(.js) .blk { height: var(--h); }
 .blk:nth-child(5n+1) { background: var(--orange); }
