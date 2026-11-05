@@ -1,0 +1,14 @@
+User-agent: *
+Allow: /
+Disallow: /report/
+Disallow: /raspakovka.html
+Disallow: /recommendations.html
+Disallow: /cards.html
+Disallow: /reviews.html
+Disallow: /channels.html
+Disallow: /materials.html
+Disallow: /scripts.html
+Disallow: /presentation.html
+Disallow: /outreach.html
+
+Sitemap: https://territoriyachistoty69.ru/sitemap.xml

@@ -429,6 +429,7 @@ const LEAD_ENDPOINT = 'https://lead-relay.leestygpt.workers.dev/lead/RDD8TZ75HK'
       const resp = await fetch(LEAD_ENDPOINT, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(payload) });
       if (!resp.ok) throw new Error('HTTP ' + resp.status);
       btn.textContent = 'Заявка отправлена';
+      try { if (window.ym) ym(113901828, 'reachGoal', 'lead'); } catch (_) {}
       formMsg.textContent = 'Спасибо. Перезвоним в ближайшее время. Фото можно сразу прислать в Telegram или Max.';
       form.reset();
       fTask.value = ''; fCalc.value = ''; $('#f-source').value = sourceStr;
@@ -453,4 +454,18 @@ const LEAD_ENDPOINT = 'https://lead-relay.leestygpt.workers.dev/lead/RDD8TZ75HK'
   }));
 
   onScroll();
+})();
+
+(function () {
+  try { if (localStorage.getItem('cookieOk')) return; } catch (_) {}
+  const bar = document.createElement('div');
+  bar.className = 'cookieBar';
+  bar.setAttribute('role', 'dialog');
+  bar.setAttribute('aria-label', 'Cookie');
+  bar.innerHTML = '<p>Сайт использует cookie и Яндекс Метрику, чтобы понимать, откуда приходят посетители. Продолжая пользоваться сайтом, вы соглашаетесь с этим. <a href="privacy.html">Подробнее</a></p><button class="btn btn--sm btn--ink" type="button">Понятно</button>';
+  bar.querySelector('button').addEventListener('click', () => {
+    try { localStorage.setItem('cookieOk', '1'); } catch (_) {}
+    bar.remove();
+  });
+  document.body.appendChild(bar);
 })();
