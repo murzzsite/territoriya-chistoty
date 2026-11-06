@@ -248,11 +248,11 @@ html.js .hero [data-r] { transition-delay: calc(var(--d, 0ms) + 650ms); }
 .step__body p { align-self: end; max-width: 36ch; font-size: var(--step-body); line-height: 1.45; }
 .step__pic { grid-column: 2; grid-row: 2; overflow: hidden; min-height: 0; }
 .step__pic img { width: 100%; height: 100%; object-fit: cover; }
-.step:nth-child(1) { --s-bg: #b83a0b; --s-ink: #fff; }
-.step:nth-child(2) { --s-bg: #e0511b; --s-ink: #000; }
-.step:nth-child(3) { --s-bg: #f27a47; --s-ink: #000; }
-.step:nth-child(4) { --s-bg: #f8a37d; --s-ink: #000; }
-.step:nth-child(5) { --s-bg: #fbcdb6; --s-ink: #000; }
+.step:nth-child(1) { --s-bg: #143109; --s-ink: #fff; }
+.step:nth-child(2) { --s-bg: #2b5a1a; --s-ink: #fff; }
+.step:nth-child(3) { --s-bg: #6fb85a; --s-ink: #000; }
+.step:nth-child(4) { --s-bg: #a7ff9c; --s-ink: #000; }
+.step:nth-child(5) { --s-bg: #d6f7d0; --s-ink: #000; }
 
 /* ---------- about: inset panel, arched photo ---------- */
 .f-about { background: var(--paper); padding-top: 0; }
