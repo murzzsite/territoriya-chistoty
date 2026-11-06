@@ -4,8 +4,8 @@
   --soft: #f3f3f1;
   --ink: #000000;
   --muted: #4d4d4d;
-  --orange: #f9531f;
-  --orange-d: #b83a0b;
+  --orange: #143109;
+  --orange-d: #0b1c05;
   --mint: #a7ff9c;
   --mint-2: #c2ffba;
   --grey: #c8c8c8;
@@ -300,8 +300,8 @@ html.js .hero [data-r] { transition-delay: calc(var(--d, 0ms) + 650ms); }
 .contact__in .head { max-width: 14ch; }
 .bar { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 8px; margin-top: clamp(24px, 3vw, 40px); min-height: 96px; }
 .bar > * { min-width: 0; }
-.bar .cellf { background: #ff7a4d; display: flex; transition: background-color .25s; }
-.bar .cellf:hover { background: #ff8a60; }
+.bar .cellf { background: #2b5a1a; display: flex; transition: background-color .25s; }
+.bar .cellf:hover { background: #36701f; }
 .bar .cellf:focus-within { background: var(--paper); }
 .bar input { width: 100%; border: 0; background: transparent; text-align: center; font-size: var(--step-body); font-weight: 500; padding: 0 16px; outline: none; color: var(--ink); }
 .bar input::placeholder { color: var(--ink); opacity: .8; }
@@ -415,3 +415,14 @@ html:not(.js) .blk { height: var(--h); }
 .cookieBar p { margin: 0; }
 .cookieBar button { flex: none; }
 @media (max-width: 560px) { .cookieBar { flex-direction: column; align-items: stretch; } }
+
+/* ---------- тёмно-зелёная палитра: на глубоком зелёном текст светлый ---------- */
+.f-orange, .hero, .f-contact { color: #fff; }
+.f-orange :focus-visible, .hero :focus-visible, .f-contact :focus-visible { outline-color: var(--mint); }
+.hero__title .ln:nth-child(2) { color: var(--mint); }
+.hero .btn, .f-contact .btn, .f-orange .btn { color: var(--ink); }
+.bar input, .bar input::placeholder { color: #fff; }
+.bar .cellf:focus-within input { color: var(--ink); }
+.bar .cellf:focus-within { outline-color: var(--mint); }
+.blk:nth-child(5n+1), .blk:nth-child(5n) { color: #fff; }
+.rig::before, .rig::after { background: var(--mint); }

@@ -175,7 +175,7 @@ const LEAD_ENDPOINT = 'https://lead-relay.leestygpt.workers.dev/lead/RDD8TZ75HK'
   };
   const lawnSvg = j => j === 'mow'
     ? '<g class="lawn"><rect y="0" width="100" height="34" fill="#a7d279"/><rect y="68" width="100" height="32" fill="#a7d279"/></g>'
-    : '<g class="lawn"><rect y="24" width="100" height="7" fill="#d9cfb6"/><rect y="69" width="100" height="7" fill="#d9cfb6"/><rect x="6" y="6" width="9" height="9" fill="#f9531f"/></g>';
+    : '<g class="lawn"><rect y="24" width="100" height="7" fill="#d9cfb6"/><rect y="69" width="100" height="7" fill="#d9cfb6"/><rect x="6" y="6" width="9" height="9" fill="#143109"/></g>';
 
   const plotCols = () => {
     const W = plot.parentElement.clientWidth - 2;
