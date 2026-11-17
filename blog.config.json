@@ -1,0 +1,44 @@
+{
+  "siteName": "Территория чистоты",
+  "siteUrl": "https://territoriyachistoty69.ru",
+  "lang": "ru",
+  "repo": "murzzsite/territoriya-chistoty",
+  "ref": "RDD8TZ75HK",
+  "workerUrl": "https://lead-relay.leestygpt.workers.dev",
+  "blogTitle": "Блог",
+  "blogDescription": "Статьи о расчистке участков, спиле деревьев, вывозе мусора и уборке снега в Твери и области.",
+  "homeTitle": "Полезные статьи",
+  "author": {
+    "name": "Территория чистоты",
+    "jobTitle": "",
+    "type": "Organization"
+  },
+  "ctaTitle": "Остались вопросы?",
+  "ctaText": "Пришлите фото или видео участка: назовём состав работ и цену до начала.",
+  "ctaButton": "Оставить заявку",
+  "ctaUrl": "/#contact",
+  "disclaimer": "",
+  "telegramNotify": true,
+  "cadenceDays": 7,
+  "homeLatest": 3,
+  "staticPages": [
+    "/",
+    "/raschistka-uchastkov.html",
+    "/spil-derevev.html",
+    "/demontazh-vyvoz-musora.html",
+    "/uborka-vyvoz-snega.html"
+  ],
+  "indexNowKey": "7666e00b8ce84b98b0fb46bbd59da391",
+  "previewSecret": "db9adf5747272019",
+  "theme": {
+    "accent": "var(--orange)",
+    "accent-soft": "var(--mint-2)",
+    "bg": "var(--paper)",
+    "surface": "var(--paper)",
+    "ink": "var(--ink)",
+    "text": "var(--ink)",
+    "soft": "var(--muted)",
+    "line": "var(--grey)",
+    "radius": "0px"
+  }
+}
