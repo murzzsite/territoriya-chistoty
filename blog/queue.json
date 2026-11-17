@@ -11,14 +11,6 @@
       "preview_url": "https://territoriyachistoty69.ru/blog/preview/6abce5a2633e/spil-derevev-na-uchastke-tver/"
     },
     {
-      "slug": "stoimost-raschistki-uchastka-tver",
-      "path": "articles/stoimost-raschistki-uchastka-tver.md",
-      "title": "Сколько стоит расчистка участка в Твери: цена за сотку и из чего она складывается",
-      "description": "Сколько стоит расчистка участка в Твери: ориентир от 10 до 25 тыс. ₽ за сотку, от чего зависит цена и как её узнать по фото до начала работ.",
-      "reading_time": "7 мин чтения",
-      "preview_url": "https://territoriyachistoty69.ru/blog/preview/250110518158/stoimost-raschistki-uchastka-tver/"
-    },
-    {
       "slug": "uborka-snega-dlya-snt-i-organizaciy-tver",
       "path": "articles/uborka-snega-dlya-snt-i-organizaciy-tver.md",
       "title": "Уборка и вывоз снега для СНТ, посёлков и организаций в Твери: разовые работы или на сезон",
@@ -36,5 +28,12 @@
     }
   ],
   "scheduled": [],
-  "published": []
+  "published": [
+    {
+      "slug": "stoimost-raschistki-uchastka-tver",
+      "title": "Сколько стоит расчистка участка в Твери: цена за сотку и из чего она складывается",
+      "url": "https://territoriyachistoty69.ru/blog/stoimost-raschistki-uchastka-tver/",
+      "date": "2026-11-17"
+    }
+  ]
 }
